@@ -1,7 +1,12 @@
+import Hello from "@/app/components/hello";
+
 const Home = () => {
-    console.log("Hello ");
+    console.log("What type of component am I?");
     return (
-        <div className="text-5xl underline">Welcome!</div>
+        <main>
+            <div className="text-5xl underline">Welcome!</div>
+            <Hello/>
+        </main>
     )
 }
 export default Home
