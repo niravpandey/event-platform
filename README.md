@@ -38,3 +38,20 @@ export default UserDetails
 - ```await params``` pauses execution until the ```Promise``` is resolved.
 - ```params = Promise.resolve({ id : "123" })```
 - After ```await```you get ```{ id: "123" }```
+
+## Layout 
+
+- The ```layout.tsx``` file is parent to all the pages we've created 
+- Adding a component to ```layout.tsx``` adds the component to every other page.
+- You can add layouts to multiple pages to customize the elements of the page and its children.
+
+But what if you want the Dashboard Navbar to render separately from the Main? This leads us to 
+
+## Route Groups
+
+- Won't show up in the URL
+- Wrapping the folder name inside of parentheses does just this
+- ```layout.tsx``` inside ```(dashboard)``` will be specific to only the pages inside that directory
+- ```layout.tsx``` inside ```(root)``` will be specific to pages inside it (including the main page)
+- Important: Both route groups can't have a ```page.tsx``` lying out and about, as it causes an error
+- You cannot have two parallel pages resolve to the same path.
