@@ -55,3 +55,8 @@ But what if you want the Dashboard Navbar to render separately from the Main? Th
 - ```layout.tsx``` inside ```(root)``` will be specific to pages inside it (including the main page)
 - Important: Both route groups can't have a ```page.tsx``` lying out and about, as it causes an error
 - You cannot have two parallel pages resolve to the same path.
+
+## Error Handling
+
+- We can make a custom error page in our ```(root)``` file
+- This is a Client Component.
