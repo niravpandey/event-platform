@@ -1,11 +1,10 @@
-import Hello from "@/components/hello";
-
 const Home = () => {
-    console.log("What type of component am I?");
     return (
         <main>
-            <div className="text-5xl underline">Welcome!</div>
-            <Hello/>
+            <section>
+                <h1 className="text-center">Events you can't miss!</h1>
+                <p className="text-center mt-5">Hackathons, Meetups, Conferences</p>
+            </section>
         </main>
     )
 }
