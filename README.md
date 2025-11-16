@@ -83,3 +83,27 @@ But what if you want the Dashboard Navbar to render separately from the Main? Th
 # Backend 
 
 Make a file, then inside it, create another file called ```route.ts```.
+
+
+## Caching
+
+- Data can be reused and rebuilt
+- E.g., browser cache, server cache, data cache, etc.
+- You can implement at a file, component and function level.
+- ```cacheLife()``` controls how frequently data gets cached.
+
+## Build Adapters API
+
+- You and hosting providers connect directly on the build pipeline
+- Teaches NextJS how to build for different build environments 
+- Gives you freedom from being tied to one provider
+
+## Metadata
+
+- If you add the files with the right names, it gets added to your metatags
+- E.g., ```favicon.ico, icon.svg, twitter-image.png```
+- File based metadata has higher priority than config based.
+
+
+# Practical Part 
+
