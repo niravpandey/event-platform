@@ -5,6 +5,8 @@ Next.js. They have been incredibly helpful.
 
 I have taken notes on the overarching ideas introduced in the video.
 
+# Frontend 
+
 ## Client Side Rendering
 
 - ```use client``` is required for any component rendered on the client's side. 
@@ -60,3 +62,24 @@ But what if you want the Dashboard Navbar to render separately from the Main? Th
 
 - We can make a custom error page in our ```(root)``` file
 - This is a Client Component.
+
+## Loader 
+
+- ```loader.tsx``` displays the specified content while content is rendering
+
+## ```unauthorized.js```
+
+- This is a new feature in Next.js 16
+- Instead of showing an error, tells you that you are unauthorized to view the content.
+
+## Data Fetching
+
+- Server side fetching is easier
+- Gives better SEO
+- Search Engine Crawlers can more easily index content
+- Allows Automatic Request Deduplication (makes sure only one request is sent)
+- Still displays results if Javascript is turned off in the browser.
+
+# Backend 
+
+Make a file, then inside it, create another file called ```route.ts```.
