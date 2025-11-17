@@ -125,3 +125,11 @@ export default EventCard
 ```
 
 This is how we pass arguments to the component.
+
+## PostHog
+
+- Track user behaviour 
+- See features performance 
+- Monitor errors in real-time
+- Capture metrics
+
