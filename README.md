@@ -107,3 +107,21 @@ Make a file, then inside it, create another file called ```route.ts```.
 
 # Practical Part 
 
+## The EventCard component
+
+```tsx
+interface Props{
+    title: string;
+    image: string;
+    
+}
+
+const EventCard = ({title, image} : Props) => {
+    return (
+        <div>Event Card</div>
+    )
+}
+export default EventCard
+```
+
+This is how we pass arguments to the component.
